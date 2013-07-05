@@ -1,5 +1,5 @@
 {
-  "name": "grapher",
+  "name": "node-system-grapher",
   "version": "0.1.0",
   "description": "A simple server to graph stats",
   "author": "Gio d'Amelio",
