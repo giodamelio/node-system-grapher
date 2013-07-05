@@ -1,0 +1,12 @@
+.title-bar {
+    background: steelblue;
+    color: white;
+}
+
+.graph {
+    border: 1px grey;
+}
+
+.border {
+    border: 1px solid black
+}
