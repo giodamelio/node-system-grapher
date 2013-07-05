@@ -1,26 +1,29 @@
-<html>
+<html ng-app>
     <head>
-        <title>Grapher</title>
-
+        <title>Node System Grapher</title>
+        
+        <!-- jquery because its awesome -->
         <script src="/vendor/jquery/jquery-1.10.2.min.js"></script>
+        <!-- Angular for added coolness -->
+        <script src="/vendor/angular/angular.min.js"></script>
+        <!-- I am not a design guy, so I use the awesome groundwork framework -->
         <script src="/vendor/groundwork/js/groundwork.all.js"></script>
-        <script src="/vendor/handlebars/handlebars.js"></script>
+        <!-- d3 and rickshaw for the graphs -->
         <script src="/vendor/d3/d3.min.js"></script>
         <script src="/vendor/rickshaw/rickshaw.min.js"></script>
+        <!-- socket.io for the realtime communication -->
         <script src="/socket.io/socket.io.js"></script>
+        <!-- and finally the application code -->
         <script src="/main.js"></script>
         
+        <!-- groundwork framework -->
         <link href="vendor/groundwork/css/groundwork.css" rel="stylesheet">
+        <!-- rickshaw graph css -->
         <link href="vendor/rickshaw/rickshaw.min.css" rel="stylesheet">
+        <!-- my css -->
         <link href="main.css" rel="stylesheet">
     </head>
     <body>
-        <div class="row">
-            <div class="one whole title-bar align-center pad-top">
-                <h3>Grapher</h3>
-            </div>
-            <div id="container" class="three fifths centered">
-            </div>
-        </div>
+        
     </body>
 </html>

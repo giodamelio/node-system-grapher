@@ -11,19 +11,10 @@ var server = http.createServer(app)
 
 // Startup socket.io
 var io = socketio.listen(server);
-io.set("log level", 0)
+//io.set("log level", 0)
 
 // Do the stuff
 io.sockets.on("connection", function (socket) {
-    socket.emit("add", {
-        id: "test",
-        title: "Test Graph"
-    });
-
-    socket.emit("add", {
-        id: "hello-world",
-        title: "Hello World Graph"
-    });
 });
 
 // Run the whole thing
