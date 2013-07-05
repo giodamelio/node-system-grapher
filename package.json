@@ -1,0 +1,8 @@
+{
+  "name": "grapher",
+  "version": "0.1.0",
+  "description": "A simple server to graph stats",
+  "author": "Gio d'Amelio",
+  "main": "index.js",
+  "license": "BSD"
+}
